@@ -22,8 +22,6 @@ jobs:
         name: Run tests
         run: |
           go test -v ./...
-      - uses: GHA-TalaveraCloudbees
-        name: GHA Step
   deploy:
     environment: devJT
     steps:
